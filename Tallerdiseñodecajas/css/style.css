@@ -1,0 +1,90 @@
+.general {
+    border: 2px solid gray;
+    height: auto;
+    width: 950px;
+    overflow: auto;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    float: left;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 10px;
+    transition: box-shadow 0.3s; /* Add a smooth transition effect */
+}
+
+.caja h2 {
+    color: white;
+    text-decoration: none;
+}
+
+.caja:hover {
+    box-shadow: inset 5px 5px 10px gray; /* Add an inset box shadow for interior shadow effect on hover */
+}
+
+#header {
+    text-align: center;
+    padding: 15px 0;
+    height: 10%;
+    background-color: grey;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    background-color: rgb(190, 187, 187);
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu ul li {
+    padding: 10px;
+    background-color: lightgray;
+    border-right: 1px solid black;
+}
+
+#menu a {
+    color: gray; 
+    text-decoration: none; 
+}
+
+#principal {
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    width: 550px;
+    float: left;
+}
+
+#lateral{
+    width: 331px;
+    overflow: scroll;
+    float: left;
+    height: 1035px; /* Set height to fill the available vertical space */
+    background-color: rgb(185, 180, 180);
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-start; /* Center horizontally */
+    align-items: flex-start; /* Center vertically */
+    margin-top: 100px;
+}
+
+#footer {
+    clear: both; /* Clear the floats */
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
